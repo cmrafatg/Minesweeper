@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=AssignTest
+comment0.text=\n\ The\ test\ class\ AssignTest\ is\ used\ to\ test\ the\ functionality\ of\ Assign\ class.\n\ This\ class\ is\ meant\ to\ handle\ the\ assignment\ of\ moves\ in\ the\ Minesweeper\ game.\n\ \n\ @version\ 2.0\n
+comment1.params=
+comment1.target=void\ setUp()
+comment2.params=
+comment2.target=void\ testConstructor()
+comment3.params=
+comment3.target=void\ testAssignMove()
+comment4.params=
+comment4.target=void\ testGetRow()
+numComments=5

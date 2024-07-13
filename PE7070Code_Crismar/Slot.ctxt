@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Slot
+comment0.text=\n\ This\ class\ was\ created\ to\ represent\ a\ single\ cell\ in\ the\ Minesweeper\ game.\n\ It\ keeps\ track\ of\ the\ position\ and\ state.\ \n\ The\ state\ can\ take\ the\ values\:\ empty,\ flagged,\ or\ a\ mine.\n\ \n\ @author\ Lauren\ Scott\ &\ Mircea-Rafael\ Crismar\n\ @version\ student\ final\n
+comment1.params=row\ col\ state
+comment1.target=Slot(int,\ int,\ java.lang.String)
+comment1.text=\n\ This\ initializes\ a\ new\ cell\ with\ a\ row,\ column,\ and\ state.\n\ \n\ @param\ row\ The\ row\ number\ of\ the\ cell\n\ @param\ col\ The\ column\ number\ of\ the\ cell\n\ @param\ state\ What\ is\ in\ the\ cell\ at\ the\ start\n
+comment2.params=
+comment2.target=java.lang.String\ getState()
+comment2.text=\n\ This\ is\ a\ getter\ for\ the\ state\ of\ the\ cell.\n\ @return\ The\ state\ of\ the\ cell\ as\ a\ String\n
+comment3.params=state
+comment3.target=void\ setState(java.lang.String)
+comment3.text=\n\ This\ changes\ the\ state\ of\ the\ cell\ and\ tells\ others\ if\ it\ changed.\n\ @param\ state\ The\ new\ state\ to\ set\ for\ the\ cell\n
+comment4.params=
+comment4.target=int\ getRow()
+comment4.text=\n\ This\ gets\ the\ row\ number\ of\ the\ cell.\n\ @return\ The\ row\ number\ of\ the\ cell\n
+comment5.params=
+comment5.target=int\ getCol()
+comment5.text=\n\ This\ gets\ the\ column\ number\ of\ the\ cell.\n\ @return\ The\ column\ number\ of\ the\ cell\n
+numComments=6

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=GameFileHandler
+comment0.text=\n\ This\ is\ the\ class\ that\ handles\ all\ the\ file\ processing\ needed\ for\ the\ game.\n\ It\ has\ methods\ for\ saving\ and\ loading\ the\ game\ to\ and\ from\ files.\n\ It\ has\ other\ secondary\ methods\ to\ check\ for\ data\ validation\ and\ error\ handling\n\ \n\ @version\ 2.0\ (Final)\n\ @autor\ Mircea-Rafael\ Crismar\n
+comment1.params=level
+comment1.target=java.lang.String\ getSaveFileName(java.lang.String)
+comment1.text=\n\ This\ method\ creates\ the\ save\ file\ name\ based\ on\ the\ current\ level.\n\ It\ replaces\ "em"\ with\ "lvl"\ and\ removes\ the\ ".txt"\ and\ appends\ "saved.txt"\ instead.\n\ \n\ @param\ level\ is\ the\ original\ level\ file\ name\n\ @return\ the\ name\ of\ file\ where\ the\ progress\ was\ saved\ for\ that\ level\n
+comment2.params=playerBoard\ level\ lives
+comment2.target=void\ saveGame(Slot[][],\ java.lang.String,\ int)
+comment2.text=\n\ This\ method\ handles\ the\ game\ being\ saved\ to\ the\ file.\n\ \n\ @param\ playerBoard\ represents\ the\ current\ game\ board\n\ @param\ level\ is\ the\ level\ file\n\ @param\ lives\ the\ number\ of\ lives\ left\n\ @throws\ IOException\ is\ used\ in\ case\ any\ input\ or\ output\ errors\ occur\n
+comment3.params=level
+comment3.target=java.util.List\ loadGame(java.lang.String)
+comment3.text=\n\ This\ method\ was\ created\ to\ load\ the\ cell\ states\ from\ the\ file.\n\ \n\ @param\ level\ the\ name\ of\ the\ level\ file\n\ @return\ a\ list\ of\ strings\ with\ the\ cells\ states\n\ @throws\ IOException\ if\ any\ error\ occurs\n\ \n
+comment4.params=level
+comment4.target=boolean\ isSaveFilePresent(java.lang.String)
+comment4.text=\n\ This\ is\ a\ helper\ method\ to\ check\ if\ a\ save\ file\ exists\ for\ a\ given\ level.\n\ \n\ @param\ level\ the\ name\ of\ the\ level\ file\n\ @return\ true\ if\ the\ save\ file\ exists\ and\ false\ if\ it\ does\ not\n
+comment5.params=cell
+comment5.target=boolean\ isValidCellState(java.lang.String)
+comment5.text=\n\ This\ method\ checks\ the\ state\ of\ each\ cell\ to\ match\ the\ allowed\ characters\n\ \n\ @param\ cell\ the\ state\ of\ the\ cell\n\ @return\ true\ if\ the\ cell\ state\ is\ valid,\ false\ if\ not\n
+numComments=6

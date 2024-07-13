@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=InstructionsWindow
+comment1.params=
+comment1.target=InstructionsWindow()
+comment1.text=\n\ Creates\ the\ window\ size,\ title,\ and\ text\ area\ with\ instructions.\n
+numComments=2

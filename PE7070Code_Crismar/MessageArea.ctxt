@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MessageArea
+comment0.text=\n\ The\ MessageArea\ class\ makes\ creates\ an\ area\ to\ display\ all\ the\ messages\ to\ the\ user\n\ \n\ @author\ Mircea-Rafael\ Crismar\n\ @version\ 2.0\n
+comment1.params=
+comment1.target=MessageArea()
+comment1.text=\n\ Sets\ up\ the\ text\ area\ with\ font,\ size,\ and\ layout.\n
+comment2.params=
+comment2.target=javax.swing.JTextArea\ getMessageArea()
+comment2.text=\n\ Method\ to\ get\ the\ text\ area.\n\ @return\ the\ message\ area\n
+numComments=3

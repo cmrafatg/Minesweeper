@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ButtonsMenu
+comment0.text=\n\ The\ ButtonsMenu\ class\ creates\ a\ panel\ containing\ all\ the\ control\ buttons\ for\ game.\n\ The\ buttons\ are\ used\ to\:\ save,\ load,\ undo,\ reset\ the\ game,\ switch\ modes,\ change\ levels,\n\ show\ instructions,\ and\ quit\ the\ game.\n\ \n\ @author\ Mircea-Rafael\ Crismar\n\ @version\ 1.0\n
+comment1.params=parent
+comment1.target=ButtonsMenu(MinesweeperGUI)
+comment1.text=\n\ Makes\ the\ ButtonsMenu.\n\ Sets\ up\ buttons\ and\ adds\ them\ to\ the\ panel.\n\ @param\ parent\ -\ the\ parent\ GUI\n
+comment2.params=
+comment2.target=javax.swing.JButton\ getModeButton()
+comment2.text=\n\ Method\ to\ get\ the\ Mode\ button.\n\ @return\ the\ mode\ button\n
+comment3.params=
+comment3.target=javax.swing.JButton\ getLevelButton()
+comment3.text=\n\ Method\ to\ get\ the\ Level\ button.\n\ @return\ the\ level\ button\n
+numComments=4

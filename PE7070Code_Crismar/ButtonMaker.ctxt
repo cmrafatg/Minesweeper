@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=ButtonMaker
+comment1.params=text\ listener
+comment1.target=javax.swing.JButton\ createButton(java.lang.String,\ java.awt.event.ActionListener)
+comment1.text=\n\ Creates\ a\ JButton\ with\ the\ given\ text\ and\ attaches\ an\ ActionListener\ to\ it.\n\n\ @param\ text\ the\ text\ on\ the\ button\n\ @param\ listener\ the\ ActionListener\ attached\ to\ the\ button\n\ @return\ the\ created\ JButton\n
+numComments=2

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=GameStats
+comment0.text=\n\ This\ class\ is\ in\ charge\ of\ displaying\ different\ stats\ to\ the\ player.\n\ These\ include\:\ number\ of\ lives\ left,\ current\ level/difficulty\ and\ mode\ (guess\ or\ flag)\n\ \n\ @author\ Mircea-Rafael\ Crismar\n\ @version\ 1.0\n
+comment1.params=game\ currentMode
+comment1.target=GameStats(Minesweeper,\ java.lang.String)
+comment2.params=livesCount
+comment2.target=void\ updateLives(int)
+comment3.params=icon\ width\ height
+comment3.target=javax.swing.ImageIcon\ scaleImage(javax.swing.ImageIcon,\ int,\ int)
+comment4.params=
+comment4.target=javax.swing.JLabel\ getModeLabel()
+comment5.params=
+comment5.target=javax.swing.JLabel\ getDifficultyLabel()
+comment6.params=difficulty
+comment6.target=void\ updateDifficulty(java.lang.String)
+numComments=7

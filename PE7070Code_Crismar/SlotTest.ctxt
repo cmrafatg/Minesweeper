@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=SlotTest
+comment0.text=\n\ The\ test\ class\ SlotTest\ is\ used\ to\ test\ the\ functionality\ of\ Slot\ class.\n\ This\ is\ a\ simple\ class\ that\ is\ meant\ to\ hold\ the\ position\ and\ state\ of\ each\ slot.\n\ \n\ @author\ Mircea-Rafael\ Crismar\n\ @version\ 2.0\n
+comment1.params=
+comment1.target=void\ setUp()
+comment2.params=
+comment2.target=void\ testGetState()
+comment3.params=
+comment3.target=void\ testSetState()
+comment4.params=
+comment4.target=void\ testGetRow()
+comment5.params=
+comment5.target=void\ testGetCol()
+numComments=6
